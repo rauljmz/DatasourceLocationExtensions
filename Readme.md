@@ -6,7 +6,7 @@ This *hack* will allow you to use Sitecore query in the *datasource location* fi
 Add `Sitecore.Kernel.dll` to the lib folder, compile and copy the resulting DLL and config file in your solution.
 
 ##Usage##
-Sitecore queries will be supported in the datasource location field of components. Queries are identified by prepending them with **query:** (just like it happens in field sources). You can also use relative paths directly, without creating a query, buy just adding a path that starts with a dot **.** *e.g.* ./global 
+Sitecore queries will be supported in the datasource location field of components. Queries are identified by prepending them with **query:** (just like it happens in field sources). You can also use relative paths directly, without creating a query, by just adding a path that starts with a dot **.** *e.g.* ./global 
 
 Relative paths are resolved against the context item at the time of adding the datasource to a component.
 
